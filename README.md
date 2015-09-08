@@ -90,7 +90,8 @@ https://teamgaslight.com/blog/how-to-remove-all-elements-from-a-meteor-collectio
 
 ##### 8. What are 3 interview questions one might be asked about this technology?
   1. When setting up a new Meteor App, how would you create your database?
-  > By default, every Meteor project comes with its own database. There’s no setup or configuration required. Whenever you create a project, a database is automatically created for that project, and whenever the local server is running, so is that database. This database, however, is not an SQL database. Instead, it’s what’s known as a MongoDB database.
+
+  By default, every Meteor project comes with its own database. There’s no setup or configuration required. Whenever you create a project, a database is automatically created for that project, and whenever the local server is running, so is that database. This database, however, is not an SQL database. Instead, it’s what’s known as a MongoDB database.
 
   2. What are some advantages of using Meteor.js?
 
@@ -103,7 +104,8 @@ https://teamgaslight.com/blog/how-to-remove-all-elements-from-a-meteor-collectio
 
   Assuming you define `removeAllPosts on` the server like so
 
-  ```if (Meteor.isServer) {
+  ```javascript
+  if (Meteor.isServer) {
     Meteor.startup(function() {
       return Meteor.methods({
         removeAllPosts: function() {
@@ -111,4 +113,5 @@ https://teamgaslight.com/blog/how-to-remove-all-elements-from-a-meteor-collectio
         }
       });
     });
-  }```
+  }
+  ```
