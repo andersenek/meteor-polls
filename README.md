@@ -12,6 +12,7 @@ To run the local version of this app:
 
 3. Install MongoDB ``` $ brew install mongodb ```
 4. ```cd``` into your cloned repo
+
 5. Run the application with ```meteor```
 
 ##### 1. Why did you choose this subject?
