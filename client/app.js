@@ -1,4 +1,4 @@
-Template.body.helpers({
+Template.pollList.helpers({
 
   polls: function() {
     return Polls.find();
