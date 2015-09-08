@@ -1,10 +1,13 @@
 # Meteor.js Polling App
 
 ##### 1. Why did you choose this subject?
-I chose to learn about Meteor.js because I'm interested in JavaScript frameworks.
+We chose to learn about Meteor.js because we are interested in JavaScript frameworks.
 
 * How were you first made aware of it?
-A few weeks ago, my friend in the development industry asked me if I had ever used or heard of Meteor.js. Their opinion of Meteor is that it's a powerful JS framework that makes building prototypes a simple and efficient process.
+
+Erica - A few weeks ago, my friend in the development industry asked me if I had ever used or heard of Meteor.js. Their opinion of Meteor is that it's a powerful JS framework that makes building prototypes a simple and efficient process.
+
+Paul - I hadn't heard of it until today!
 
 ##### 2. What problem does it solve?
 With nothing but JavaScript, you’re able to build modern, real-time web applications for both desktop and mobile platforms.
@@ -42,7 +45,7 @@ There are so many reasons! So far, my favorite reason (sourced from http://www.s
 ##### 4. What is the history of this technology?
 
 * Who built it and why?
-Meteor was co-created by Geoff Schmidt and Matt Debergalisis who started their team, the Meteor Development Group. The startup was incubated by Y Combinator and received $11.2MM in funding from Andreessen Horowitz in July 2012.
+Meteor (which was originally called Skybreak) was co-created by Geoff Schmidt and Matt Debergalisis who started their team, the Meteor Development Group. The startup was incubated by Y Combinator and received $11.2MM in funding from Andreessen Horowitz in July 2012.
 
 * Who is maintaining it?
 Meteor is maintained by the Meteor Development Group. This their team and the members can be seen here: https://www.meteor.com/people
@@ -67,7 +70,7 @@ Meteor is maintained by the Meteor Development Group. This their team and the me
   2. What are some advantages of using Meteor.js?
 
   3. How would you go about finding an element to delete in your Meteor Collection?
-  Meteor has a remove() method but the catch is that you’re not allowed to call Collection.remove({}) from the console. The key to the this is that you can call methods defined on the Meteor server from the client using the `Meteor.call` method. Therefore, this will work in the console
+  Meteor has a remove() method but the catch is that you’re not allowed to call Collection.remove({}) from the console. The solution here is that you can call methods defined on the Meteor server from the client using the `Meteor.call` method. Therefore, this will work in the console:
 
   `Meteor.call('removeAllPosts')`
 
