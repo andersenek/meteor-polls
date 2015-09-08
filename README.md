@@ -9,9 +9,10 @@ To run the local version of this app:
 2. Install Meteor on your machine
   * Windows: https://install.meteor.com/windows
   * OSX/Linux: curl https://install.meteor.com/ | sh
-  
-3. ```cd``` into your cloned repo
-4. Run the application with ```meteor```
+
+3. Install MongoDB ``` $ brew install mongodb ```
+4. ```cd``` into your cloned repo
+5. Run the application with ```meteor```
 
 ##### 1. Why did you choose this subject?
 We chose to learn about Meteor.js because we are interested in JavaScript frameworks.
