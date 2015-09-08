@@ -1,5 +1,21 @@
 # Meteor.js Polling App
 
+http://wdipolls.meteor.com/
+
+Team Meteor Shower = Erica Andersen + Paul Doulatshahi
+
+To run the local version of this app:
+
+1. Clone the repo
+2. Install Meteor on your machine
+  * Windows: https://install.meteor.com/windows
+  * OSX/Linux: ``` curl https://install.meteor.com/ | sh ```
+
+3. Install MongoDB ``` $ brew install mongodb ```
+4. ```cd``` into your cloned repo
+
+5. Run the application with ```meteor``` - the app will be running on ``` http://localhost:3000 ```
+
 ##### 1. Why did you choose this subject?
 We chose to learn about Meteor.js because we are interested in JavaScript frameworks.
 
@@ -52,7 +68,11 @@ Meteor is maintained by the Meteor Development Group. This their team and the me
 
 ##### 5. What is your opinion on the technology after having built something with it?
 
+We really liked using it. It's very user-friendly, especially as beginners. It almost completely eliminates the back-end setup needed in other frameworks, and the front-end setup is similar to other JS frameworks.
+
 ##### 6. What are the biggest conceptual hurdles (if any) you encountered when researching this?
+
+We had minor difficulty in creating template files instead of putting them directly in the body HTML. However, with some Stack Overflow research, we resolved the issue in our code.
 
 ##### 7. What resources do you recommend for interested students?
   1. Meteor Docs: http://docs.meteor.com/#/full/
@@ -63,11 +83,18 @@ Meteor is maintained by the Meteor Development Group. This their team and the me
 
 * What article or forum was most helpful to you in learning this?
 
+Helpful articles for troubleshooting/adding functionality:
+
+http://stackoverflow.com/questions/29399249/meteor-each-loop-within-template
+https://teamgaslight.com/blog/how-to-remove-all-elements-from-a-meteor-collection
+
 ##### 8. What are 3 interview questions one might be asked about this technology?
   1. When setting up a new Meteor App, how would you create your database?
   > By default, every Meteor project comes with its own database. There’s no setup or configuration required. Whenever you create a project, a database is automatically created for that project, and whenever the local server is running, so is that database. This database, however, is not an SQL database. Instead, it’s what’s known as a MongoDB database.
 
   2. What are some advantages of using Meteor.js?
+
+  There is no back-end setup needed as long as you have MongoDB. The entire framework is in Javascript, so your back-end won't be in Ruby (for example). The packages (see http://atmospherejs.com) are easier to install than in other frameworks. All in all, you can build and deploy an MVP a lot more quickly with Meteor.js than with other popular frameworks.
 
   3. How would you go about finding an element to delete in your Meteor Collection?
   Meteor has a remove() method but the catch is that you’re not allowed to call Collection.remove({}) from the console. The solution here is that you can call methods defined on the Meteor server from the client using the `Meteor.call` method. Therefore, this will work in the console:
