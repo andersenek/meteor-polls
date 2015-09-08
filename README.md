@@ -1,6 +1,7 @@
 # Meteor.js Polling App
 
 http://wdipolls.meteor.com/
+
 Team Meteor Shower = Erica Andersen + Paul Doulatshahi
 
 To run the local version of this app:
