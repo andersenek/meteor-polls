@@ -14,7 +14,7 @@ To run the local version of this app:
 3. Install MongoDB ``` $ brew install mongodb ```
 4. ```cd``` into your cloned repo
 
-5. Run the application with ```meteor```
+5. Run the application with ```meteor``` - the app will be running on ``` http://localhost:3000 ```
 
 ##### 1. Why did you choose this subject?
 We chose to learn about Meteor.js because we are interested in JavaScript frameworks.
