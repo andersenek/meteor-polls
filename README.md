@@ -4,6 +4,7 @@
 We chose to learn about Meteor.js because we are interested in JavaScript frameworks.
 
 * How were you first made aware of it?
+
 Erica - A few weeks ago, my friend in the development industry asked me if I had ever used or heard of Meteor.js. Their opinion of Meteor is that it's a powerful JS framework that makes building prototypes a simple and efficient process.
 
 Paul - I hadn't heard of it until today!
